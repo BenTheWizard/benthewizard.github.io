@@ -1,21 +1,16 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-body {
+.body {
     background-color: #000000;
     box-sizing: border-box;
 }
 
-p {
+.p {
     color: #FFFFFF;
     font-family: Audiowide;
     font-size: 20px;
     margin: 10px auto;
 }
 
-ul {
+.ul {
     list-style: none;
     background-color: rgba(69, 1, 93, 0.23);
     margin: 0;
@@ -30,7 +25,7 @@ ul {
     text-align: center;
 }
 
-footer div {
+footer .div {
     background-color: rgba(69, 1, 93, 0.23);
     border: 2px #530071 dashed;
     border-bottom-left-radius: 40px;
@@ -42,13 +37,13 @@ footer div {
     right: 0;
 }
 
-li {
+.li {
     display: inline;
     padding: .52em 1.2em;
     border: 2px #530071 dashed;
 }
 
-li a {
+.li a {
     color: #FFFFFF;
     font-family: Montserrat;
     font-weight: 100;
@@ -57,7 +52,7 @@ li a {
     text-decoration: none;
 }
 
-span a {
+.span a {
     color: #FFFFFF;
     font-family: Montserrat;
     font-weight: 100;
@@ -91,7 +86,7 @@ span a:hover {
 }
 
 @media only screen and (max-width: 928px) {
-    li {
+    .li {
         padding: .52em 0.71em;
     }
 
