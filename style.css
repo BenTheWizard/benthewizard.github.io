@@ -5,20 +5,38 @@
 body {
   color: #FFFFFF;
   background-color: #000000;
-  padding: 15px;
+  margin: 25px;
 }
 
 header {
   background-color: #5300804b;
   text-align: center;
-  border-top-left-radius: ;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 nav li {
   display: inline;
   padding: 5px;
   font-family: Montserrat, sans-serif;
-  font-size: 25px;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #5300804b;
+  text-align: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: fixed;
+  left: 25px;
+  right: 25px;
+  bottom: 0;
 }
 
 .row::after {
