@@ -1,1 +1,62 @@
+/* Document Format */
 
+body {
+	font-family: "Zilla Slab", Montserrat, serif;
+	font-size: 20px;
+	letter-spacing: .3rem;
+	color: #FFFFFF;
+	background-color: #35281E;
+	padding: 40px 80px;
+}
+
+
+/* ------------- */
+
+
+/* Nav Button Edits */
+
+.btn {
+	width: 300px;
+}
+
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+#btn-ben {
+	font-size: 1.5rem;
+	font-weight: 900;
+	letter-spacing: .3rem;
+}
+
+ul.dropdown-menu {
+	border-radius: 25px;
+}
+
+.dropdown-item:hover {
+	background-color: transparent;
+}
+
+
+/* -------------- */
+
+
+/* Nav Bar Edits */
+
+div.navbar-collapse {
+	justify-content: center;
+}
+
+li.nav-item a:hover {
+	color: #FFFFFF !important;
+}
+
+hr {
+	border: 5px #FFFFFF solid;
+	border-radius: 3px;
+	opacity: .9;
+}
+
+
+/* ----------- */
