@@ -60,3 +60,9 @@ hr {
 
 
 /* ----------- */
+
+@media (max-width: 772px) {
+  body {
+    padding:0;
+  }
+}
