@@ -16,7 +16,7 @@ body {
 /* Nav Button Edits */
 
 .btn {
-	width: 50vw;
+	width: fit-content;
 }
 
 .btn:focus {
