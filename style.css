@@ -61,8 +61,20 @@ hr {
 
 /* ----------- */
 
+/* Footer Edits */
+
+#copy {
+  margin: 0 auto;
+}
+
+/* ------------ */
+
+/* Fix Awkwardness on Mobile */
+
 @media (max-width: 772px) {
   body {
     padding:0;
   }
 }
+
+/* --------------------- */
